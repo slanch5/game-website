@@ -68,6 +68,7 @@
    column-gap: 36px
 }
 .promo{
+   padding-bottom: 180px;
    &__inner{
       display: flex;
       justify-content: center;
@@ -115,6 +116,36 @@
       transform: translateX(310px)
    }
    
+}
+
+.card__game{
+   &__innner{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 57px;
+   }
+
+   &__btn{
+      display: inline-flex;
+      width: fit-content;
+      border: none;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.11);
+      padding: 10px 30px;
+      color: #fff;
+      cursor: pointer;
+      text-transform: uppercase;
+      
+      
+   }
+
+   &__title{
+      color: #fff;
+      font-size: 31px;
+      font-weight: 700;
+      list-style: 187.5%;
+   }
+
 }
 
 

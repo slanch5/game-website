@@ -148,34 +148,38 @@
 
 }
 
-
 .card__game{
-   padding-bottom: 128px;
-}
-.box__card{
-  display: flex;
-  column-gap: 147px;
-  margin-bottom: 25px;
-  
- 
+   padding-bottom: 129px;
 }
 
-.box__card__move{
+
+.card__box{
    display: flex;
-   justify-content: space-between;
-   transform: translateX(30px);
    
-   
-   
+  
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+
    
 }
 
-.box__card__ctx{
+.card__ctx__move{
+   display: flex;
+   column-gap: 10px;
+   justify-content: space-between;
+
+   
+
+}
+
+.card__ctx__main{
    display: flex;
    column-gap: 10px;
    
    
 }
+
 
 
 

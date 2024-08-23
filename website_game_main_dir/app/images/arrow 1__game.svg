@@ -1,0 +1,14 @@
+<svg width="21.000000" height="21.000000" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_143">
+			<rect id="arrow 1__game" rx="-0.500000" width="20.000000" height="20.000000" transform="translate(21.500000 21.500000) rotate(180.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="arrow 1__game" rx="-0.500000" width="20.000000" height="20.000000" transform="translate(21.500000 21.500000) rotate(180.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip1_143)">
+		<path id="Vector" d="M1.26 11.97C1.34 11.98 1.43 11.99 1.52 11.99L16.33 11.99L16.01 12.14C15.69 12.29 15.41 12.49 15.16 12.74L11.01 16.89C10.46 17.42 10.37 18.26 10.79 18.88C11.28 19.55 12.22 19.7 12.89 19.21C12.94 19.17 12.99 19.13 13.04 19.08L20.55 11.57C21.14 10.98 21.14 10.03 20.56 9.44C20.56 9.44 20.55 9.44 20.55 9.44L13.04 1.93C12.45 1.34 11.5 1.34 10.92 1.93C10.87 1.98 10.83 2.03 10.79 2.08C10.37 2.71 10.46 3.55 11.01 4.07L15.15 8.23C15.37 8.45 15.63 8.64 15.9 8.78L16.35 8.98L1.6 8.98C0.83 8.95 0.16 9.49 0.01 10.25C-0.12 11.06 0.44 11.84 1.26 11.97Z" fill="#DC7000" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

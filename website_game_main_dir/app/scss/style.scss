@@ -293,6 +293,50 @@
 }
 
 
+.photos{
+   padding-bottom: 105px;
+   
+}
+
+.photo__title{
+   text-align: center;
+   color: #fff;
+   margin-bottom: 14px;
+   font-size: 30px;
+   font-weight: 700;
+}
+
+.photo__text{
+   text-align: center;
+   color: #fff;
+  
+   max-width: 497px;
+  
+ margin: 0 auto;
+   padding-bottom: 71px;
+   font-size: 14px;
+}
+
+.photo__inner{
+   display: flex;
+   justify-content: center;
+   column-gap: 27px;
+   margin-bottom: 33px;
+}
+
+.card__game__btn__2{
+   display: flex;
+   width: fit-content;
+  margin: 0 auto;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+   background: rgba(255, 255, 255, 0.11);
+   color: #fff;
+   cursor: pointer;
+
+}
+
 
 
 

@@ -216,8 +216,24 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      position: relative;
       
-    
+      
+      
+    }
+
+    .spader__man__popup::before{
+      content: '';
+      position: absolute;
+      background-image: url(../images/decore__game.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 196px;
+      height: 154px;
+      top: -60px;
+      right: 180px;
+      z-index: -1;
+
       
     }
     

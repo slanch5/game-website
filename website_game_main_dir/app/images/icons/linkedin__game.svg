@@ -1,0 +1,29 @@
+<svg width="62.000000" height="62.000000" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_1_324_dd" x="0.000000" y="0.000000" width="62.000000" height="62.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="4.66667"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<clipPath id="clip1_325">
+			<rect id="linkedin 1" rx="-0.500000" width="10.000000" height="10.000000" transform="translate(25.500000 21.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g filter="url(#filter_1_324_dd)">
+		<circle id="Ellipse 1" cx="31.000000" cy="27.000000" r="17.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	</g>
+	<rect id="linkedin 1" rx="-0.500000" width="10.000000" height="10.000000" transform="translate(25.500000 21.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip1_325)">
+		<path id="Vector" d="M35.99 31.99L35.99 31.99L36 31.99L36 27.96C36 25.99 35.57 24.47 33.26 24.47C32.15 24.47 31.41 25.07 31.11 25.65L31.07 25.65L31.07 24.65L28.89 24.65L28.89 31.99L31.16 31.99L31.16 28.36C31.16 27.4 31.35 26.47 32.53 26.47C33.7 26.47 33.72 27.57 33.72 28.42L33.72 31.99L35.99 31.99Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M25.18 24.65L27.46 24.65L27.46 32L25.18 32L25.18 24.65Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M26.32 21C25.59 21 25 21.59 25 22.32C25 23.05 25.59 23.65 26.32 23.65C27.05 23.65 27.64 23.05 27.64 22.32C27.64 21.59 27.04 21 26.32 21L26.32 21Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

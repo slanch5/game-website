@@ -454,6 +454,78 @@
    cursor: pointer;
 }
 
+.footer{
+   padding-bottom: 120px;
+   background-color: #000;
+}
+
+.footer__top{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 53px;
+   padding-top: 80px;
+   
+}
+
+.footer__top__first__block a{
+   display: block;
+   margin-bottom: 15px;
+}
+
+.footer__top__first__block__text{
+   max-width: 372px;
+   line-height: 24px;
+   margin-bottom: 25px;
+}
+
+.footer__top__first__block__link{
+   color: #fff;
+}
+
+.footer__top__2__block__title{
+   margin-bottom: 15px;
+}
+
+.about__us__list__item{
+   margin-bottom: 10px;
+}
+.about__us__list__item:last-child{
+   margin-bottom: 0;
+}
+.about__us__list__link{
+   color: #fff;
+}
+
+.footer__phone{
+   color: #fff;
+}
+
+.footer__top__3__block__title{
+   margin-bottom: 20px;
+}
+
+.footer__top__3__block__text{
+   margin-bottom: 11px;
+   line-height: 24px;
+   max-width: 285px;
+}
+
+.social__list{
+   display: flex;
+  
+  
+   margin-top: 105px;
+}
+
+
+.footer__bottom{
+   border-top:1px solid #D2D2D2 ;
+  
+}
+.footer__bottom__text{
+   text-align: center;
+   margin-top: 30px
+}
 
 
 

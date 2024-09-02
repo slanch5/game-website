@@ -527,6 +527,51 @@
    margin-top: 30px
 }
 
+.breadecums{
+   padding-bottom: 38px;
+  
+  
+  
+}
+
+.breadecrums_list{
+   display: flex;
+   flex-wrap: wrap;
+  
+   
+  
+   
+}
+.breadecrums__item{
+   position: relative;
+   padding-right: 20px;
+   &::after{
+      content: '>';
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      color: #D2D2D2;
+      top: 2px;
+      right: 4px;
+
+   }
+}
+
+.breadecrums__item:last-child::after{
+   display: none;
+}
+
+.breadecrums__link{
+   color: #fff;
+}
+
+.breadecrums__link.breadecrums__link--active{
+   color: 
+   #E47500;
+}
+
+
+
 
 
 

@@ -634,7 +634,52 @@
    transform: translateY(-400px)
 }
 
+.card__text{
+   padding-bottom: 147px;
+}
 
+.card__text__inner{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   column-gap: 43px;
+
+}
+
+.card__text__title{
+   font-weight: 600;
+   font-size: 25px;
+   line-height: 180.5%;
+   margin-bottom: 63px;
+}
+
+.card{
+   width: 378px;
+   height: 348px;
+   background-color: #1C140F;
+   border-radius: 20px
+}
+
+.card__wrapper{
+  margin-bottom: 19px;
+  margin-left: 37px;
+  padding-top: 64px;
+}
+.card__label{
+   width: fit-content;
+   background-color:#B000DC1C;
+   border-radius: 8px;
+   padding: 7px 24px;
+}
+
+.card__title{
+   margin-left: 37px;
+   margin-bottom: 16px;
+}
+
+.card__text{
+   padding-left: 37px;
+}
 
 
 

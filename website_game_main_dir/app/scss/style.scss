@@ -724,28 +724,40 @@
    display: none;
 }
 
+.card__team__inner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+}
 
-
-
-
-
-
+.card__team__block__inner{
+   text-align: center;
+   width: 295px;
+   height: 253px;
+   background-color: #1C140F;
+   padding-top: 30px;
+   border-radius: 30px;
    
+   
+}
 
+.card__team{
+   
+   padding-bottom: 157px;
+}
 
+.card__team__block__img{
+   margin: 0 auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.card__team__title{
+   margin-bottom: 53px;
+   color: #fff;
+   font-size: 25px;
+   font-weight: 600;
+   line-height: 180.5%
+}
 
 
 @import 'media';

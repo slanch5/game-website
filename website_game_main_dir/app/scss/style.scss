@@ -534,6 +534,8 @@
   
 }
 
+
+
 .breadecrums_list{
    display: flex;
    flex-wrap: wrap;
@@ -542,6 +544,14 @@
   
    
 }
+
+.breadecrums_list.breadecums__move{
+ 
+ justify-content: center;
+  
+
+}
+
 .breadecrums__item{
    position: relative;
    padding-right: 20px;
@@ -758,6 +768,40 @@
    font-weight: 600;
    line-height: 180.5%
 }
+
+.games{
+   padding-bottom: 150px;
+}
+
+.games__title{
+   text-align: center;
+   color: #fff;
+   margin-bottom: 50px;
+   font-size: 24px;
+   text-transform: uppercase;
+   font-weight: 500;
+}
+
+.games__pop__up{
+   background-repeat: no-repeat;
+   min-height: 277px;
+   position: relative;
+}
+
+.games__pop__up__link{
+   position: absolute;
+   left: 90px;
+   transform: translateY(100px) 
+}
+
+.games__inner{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;
+  
+}
+
+
 
 
 @import 'media';

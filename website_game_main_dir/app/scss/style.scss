@@ -801,6 +801,48 @@
   
 }
 
+.search{
+   padding-bottom: 103px;
+}
+
+.form__search{
+   text-align: center;
+   position: relative;
+
+   &::before{
+      content: '';
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background-image: url(../images/icons/game_search.svg);
+      top: 15px;
+      right: 815px;
+      
+   }
+}
+
+.form__search__input{
+   padding: 10px 59px;
+   border-radius: 10px;
+   background: rgb(28, 20, 15);
+   color: #fff;
+   border: none;
+   
+   
+}
+
+.form__search__input::placeholder{
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+   line-height: 24px;
+   font-weight: 400;
+  
+}
+
+
+
+
+
 
 
 

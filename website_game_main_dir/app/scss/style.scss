@@ -807,18 +807,7 @@
 
 .form__search{
    text-align: center;
-   position: relative;
-
-   &::before{
-      content: '';
-      position: absolute;
-      width: 15px;
-      height: 15px;
-      background-image: url(../images/icons/game_search.svg);
-      top: 15px;
-      right: 815px;
-      
-   }
+  
 }
 
 .form__search__input{
@@ -839,10 +828,126 @@
   
 }
 
+.form__btn__search{
+   border: none;
+   background-color: transparent;
+   transform: translate(-300px,4px);
+}
+
+.news__card{
+   padding-bottom: 120px;
+}
 
 
+.news__title{
+   text-align: center;
+   text-transform: uppercase;
+   color: #D2D2D2;
+   font-size: 20px;
+   font-weight: 500;
+   margin-bottom: 20px;
+}
 
+.con__news{
+   margin-bottom: 20px;
+}
 
+.card__news__info__title{
+   margin-bottom: 10px;
+   color: #fff;
+   font-size: 21px;
+  text-align: center;
+}
+
+.card__news__info__text{
+   max-width: 557px;
+   padding-left: 10px;
+   margin-bottom: 10px;
+}
+
+.news__card__inner{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   margin-bottom: 40px;
+   flex-wrap: wrap;
+}
+
+.contacts__us{
+   padding-bottom: 150px;
+}
+
+.contacts__us__inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__us__list{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.contacts__us__title{
+   color: #fff;
+   margin-bottom: 17px;
+   
+}
+
+.pone{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   column-gap: 25px;
+   position: relative;
+   &::after{
+      content: '';
+      position: absolute;
+      background-image: url(../images/icons/dec\ Line\ 5.svg);
+      width: 102px;
+      height: 1px;
+      color: #fff;
+      left: -180px;
+      top: 30px;
+      transform: rotate(-90deg);
+   }
+}
+
+.location{
+   display: flex;
+   column-gap: 5px;
+   position: relative;
+   &::after{
+      content: '';
+      position: absolute;
+      background-image: url(../images/icons/dec\ Line\ 5.svg);
+      width: 102px;
+      height: 1px;
+      color: #fff;
+      left: -140px;
+      top: 30px;
+      transform: rotate(-90deg);
+   }
+}
+
+.contacts__phone{
+   color: #fff;
+   font-size: 16px;
+   display: block;
+   position: relative;
+   &::after{
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background-image: url(../images/icons/phone\ 1.svg);
+      left: -50px;
+      
+   }
+}
 
 
 

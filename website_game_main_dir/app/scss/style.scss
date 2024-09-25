@@ -874,8 +874,80 @@
    flex-wrap: wrap;
 }
 
+.contacts__us{
+   padding-bottom: 150px;
+}
 
+.contacts__us__inner{
+  display: flex;
+  justify-content: space-between;
+}
 
+.contacts__us__list{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.contacts__us__title{
+   color: #fff;
+   margin-bottom: 17px;
+   
+}
+
+.pone{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   column-gap: 25px;
+   position: relative;
+   &::after{
+      content: '';
+      position: absolute;
+      background-image: url(../images/icons/dec\ Line\ 5.svg);
+      width: 102px;
+      height: 1px;
+      color: #fff;
+      left: -180px;
+      top: 30px;
+      transform: rotate(-90deg);
+   }
+}
+
+.location{
+   display: flex;
+   column-gap: 5px;
+   position: relative;
+   &::after{
+      content: '';
+      position: absolute;
+      background-image: url(../images/icons/dec\ Line\ 5.svg);
+      width: 102px;
+      height: 1px;
+      color: #fff;
+      left: -140px;
+      top: 30px;
+      transform: rotate(-90deg);
+   }
+}
+
+.contacts__phone{
+   color: #fff;
+   font-size: 16px;
+   display: block;
+   position: relative;
+   &::after{
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background-image: url(../images/icons/phone\ 1.svg);
+      left: -50px;
+      
+   }
+}
 
 
 

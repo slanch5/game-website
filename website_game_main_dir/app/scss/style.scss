@@ -118,67 +118,11 @@
    
 }
 
-.card__game{
-   &__innner{
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 57px;
-   }
-
-   &__btn{
-      display: inline-flex;
-      width: fit-content;
-      border: none;
-      border-radius: 10px;
-      background: rgba(255, 255, 255, 0.11);
-      padding: 10px 30px;
-      color: #fff;
-      cursor: pointer;
-      text-transform: uppercase;
-      
-      
-   }
-
-   &__title{
-      color: #fff;
-      font-size: 31px;
-      font-weight: 700;
-      list-style: 187.5%;
-   }
-
-}
-
-.card__game{
-   padding-bottom: 129px;
-}
 
 
-.card__box{
-   display: flex;
-   
-  
-  justify-content: space-between;
-  margin-bottom: 25px;
 
 
-   
-}
 
-.card__ctx__move{
-   display: flex;
-   column-gap: 10px;
-   justify-content: space-between;
-
-   
-
-}
-
-.card__ctx__main{
-   display: flex;
-   column-gap: 10px;
-   
-   
-}
 
 .spider__man{
    padding-bottom: 157px;
@@ -282,6 +226,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
       gap: 100px;
       margin-bottom: 62px;
       
@@ -336,6 +281,7 @@
 .photo__inner{
    display: flex;
    justify-content: center;
+   flex-wrap: wrap;
    column-gap: 27px;
    margin-bottom: 33px;
 }
@@ -462,6 +408,7 @@
 .footer__top{
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
    margin-bottom: 53px;
    padding-top: 80px;
    
@@ -539,6 +486,7 @@
 .breadecrums_list{
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
   
    
   
@@ -583,6 +531,14 @@
 .gallery{
    padding-bottom: 257px;
    color: #fff
+}
+
+.gallery__inner{
+   display: flex;
+   flex-direction: column;
+   
+   align-items: center;
+   flex-wrap: wrap;
 }
 
 
@@ -651,6 +607,7 @@
 .card__text__inner{
    display: flex;
    align-items: center;
+  
    justify-content: space-between;
    column-gap: 43px;
 
@@ -798,6 +755,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   row-gap: 20px;
+  
   
 }
 
@@ -1028,6 +986,10 @@ textarea{
    border: none;
    color: #fff;
    border-radius: 10px
+}
+
+.burger__btn{
+   display: none;
 }
 
 

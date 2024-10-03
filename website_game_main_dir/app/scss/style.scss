@@ -951,8 +951,9 @@
 }
 
 .contacts__us__form{
-   padding-bottom: 150px;
+   margin-bottom: 100px;
    padding-top: 100px;
+   padding-bottom: 100px;
    background-color: #1C140F;
  
 }
@@ -973,61 +974,50 @@
 }
 
 .contacts__us__form__form{
-  
-   text-align: center;
-   width: 671px;
+   max-width: 671px;
    margin: 0 auto;
-  
-   
-}
-
-.contacts__us__form__form__block__one{
    display: flex;
-   column-gap: 30px;
-   justify-content: center;
-   align-items: center;
-   margin-bottom: 50px;
+   justify-content: space-between;
+   gap: 20px;
+   flex-wrap: wrap;
+   
 }
 
 .first__name{
    width: 322px;
-  min-height: 57px;
-  padding: 0 10px;
-  
+   padding: 18px 20px;
+   display: inline-block;
 }
 
 .list__neme{
    width: 322px;
-   min-height: 57px;
-   padding: 0 10px;
-
-   
-   
-}
-
-
-.input__email{
-   width: 671px;
-   min-height: 56px;
-   margin-bottom: 50px;
-   padding: 0 10px;
+   padding: 18px 20px;
+   display: inline-block;
+  
 }
 
 textarea{
    width: 100%;
-   min-height: 232px;
-   margin-bottom: 60px;
+   min-height: 260px;
    resize: none;
-   padding: 10px 15px;
-   
+   padding: 0 10px;
 }
+
+.input__email{
+   width: 100%;
+   min-height: 56px;
+   padding: 0 10px;
+  
+}
+
 .contacts__us__form__form__btn{
-   margin-left: 520px;
-   padding: 10px 20px;
-   background-color: $colorforbuttom;
+   padding: 10px 48px;
+   width: fit-content;
    border: none;
+   background-color: $colorforbuttom;
    color: #fff;
-   border-radius: 10px
+   border-radius: 10px;
+  margin: 0 auto;
 }
 
 

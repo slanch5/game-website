@@ -136,7 +136,36 @@
       flex-direction: column;
    }
 
+   .contacts__us__inner{
+      flex-direction: column;
+      align-items: center;
+      row-gap: 20px;
+   }
 
+   .contacts__phone{
+      transform: translateX(-80px);
+   }
+
+   .contacts__us__title{
+      text-align: center;
+   }
+
+   .location{
+      transform: translateX(20px);
+   }
+
+}
+
+@media (max-width: 650px) {
+   .first__name{
+      width: 100%;
+   }
+
+   .list__neme{
+      width: 100%;
+   }
+
+   
 }
 
 @media (max-width: 620px) {
